@@ -31,7 +31,9 @@ Jumio validates the user’s ID, corroborates it with a selfie and uses advanced
 ![Image6](https://github.com/Stuti-Rana/Jumio-Auth-Tree-Node/blob/patch-1/guideimages/Jumio_Cloud6.png) 
 8. In the drop-down menu for ‘Choose a service type’ select ‘Jumio Service’.
 ![Image7](https://github.com/Stuti-Rana/Jumio-Auth-Tree-Node/blob/patch-1/guideimages/Jumio_Cloud7%20.png)
-19. Configure the service by filling out the fields. For ‘Token’ and ‘Secret’ use the new API credentials generated from the Jumio Service. 
+9. Configure the service by filling out the fields. For ‘Token’ and ‘Secret’ use the new API credentials generated from the Jumio Service. 
+![Image8](https://github.com/Stuti-Rana/Jumio-Auth-Tree-Node/blob/patch-1/guideimages/Jumio_Cloud8%20.png)
+
 
 ## Configure the Tree in ForgeRock Cloud
 1. Go to the ForgeRock Cloud homepage > Journeys > + New Journey
