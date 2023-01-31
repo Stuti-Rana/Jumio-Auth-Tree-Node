@@ -6,8 +6,8 @@ Jumio's ID Verification allows customers to easily and securely capture and subm
 Jumio validates the user’s ID, corroborates it with a selfie and uses advanced liveness detection to ensure the person is actually present. 
 
 ## Nodes Description 
-Jumio Initiate Node- This node will initiate Jumio’s NetVerify service. This service will scan a user’s ID as well as their face to verify their identity.
-Jumio Decision Node- This node will decide if the user is able to successfully login depending on the validity of their NetVerify scan. If the NetVerify service is able to successfully validate the user’s identity, they will be successfully authenticated. In the case of unreadable scans or unsupported types they will be led back to the Initiate node to redo the NetVerify process. And finally in the case of failed or fraud detection, the user will be met with a login failure. 
+- Jumio Initiate Node- This node will initiate Jumio’s NetVerify service. This service will scan a user’s ID as well as their face to verify their identity.
+* Jumio Decision Node- This node will decide if the user is able to successfully login depending on the validity of their NetVerify scan. If the NetVerify service is able to successfully validate the user’s identity, they will be successfully authenticated. In the case of unreadable scans or unsupported types they will be led back to the Initiate node to redo the NetVerify process. And finally in the case of failed or fraud detection, the user will be met with a login failure. 
 
 ## Set up the Jumio Service in ForgeRock Cloud
 Sign into the Jumio Customer Portal 
