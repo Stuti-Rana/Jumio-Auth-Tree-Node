@@ -5,6 +5,8 @@ This is a reference manual and configuration guide for the Netverify integration
 Jumio's ID Verification allows customers to easily and securely capture and submit their government-issued ID documents. It performs real-time ID verification using machine learning, helping you deter fraud and meet regulatory requirements. 
 Jumio validates the user’s ID, corroborates it with a selfie and uses advanced liveness detection to ensure the person is actually present. 
 
+! (Jumio_Cloud1.png)
+
 ## Nodes Description 
 - Jumio Initiate Node- This node will initiate Jumio’s NetVerify service. This service will scan a user’s ID as well as their face to verify their identity.
 * Jumio Decision Node- This node will decide if the user is able to successfully login depending on the validity of their NetVerify scan. If the NetVerify service is able to successfully validate the user’s identity, they will be successfully authenticated. In the case of unreadable scans or unsupported types they will be led back to the Initiate node to redo the NetVerify process. And finally in the case of failed or fraud detection, the user will be met with a login failure. 
