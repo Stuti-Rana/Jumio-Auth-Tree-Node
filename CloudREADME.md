@@ -13,6 +13,7 @@ Jumio validates the user’s ID, corroborates it with a selfie and uses advanced
 
 ## Set up the Jumio Service in ForgeRock Cloud
 1. Sign into the Jumio Customer Portal 
+![Image2](https://github.com/Stuti-Rana/Jumio-Auth-Tree-Node/blob/patch-1/guideimages/Jumio_Cloud2.png)
 
 2. In the toggle menu on the left hand sign go to Settings > Managed Services > Identity Verification.
  
