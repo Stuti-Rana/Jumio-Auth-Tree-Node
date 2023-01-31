@@ -16,17 +16,22 @@ Jumio validates the user’s ID, corroborates it with a selfie and uses advanced
 ![Image2](https://github.com/Stuti-Rana/Jumio-Auth-Tree-Node/blob/patch-1/guideimages/Jumio_Cloud2.png)
 
 2. In the toggle menu on the left hand sign go to Settings > Managed Services > Identity Verification.
+![Image3](https://github.com/Stuti-Rana/Jumio-Auth-Tree-Node/blob/patch-1/guideimages/Jumio_Cloud3.png) 
  
 3. Go to API Credentials > OAuth2 Clients
+![Image4](https://github.com/Stuti-Rana/Jumio-Auth-Tree-Node/blob/patch-1/guideimages/Jumio_Cloud4.png) 
 
 4. Click ‘Generate a new API token’ and select both the ‘Initialize’ and ‘Retrieve & Delete’ permissions.
+![Image5](https://github.com/Stuti-Rana/Jumio-Auth-Tree-Node/blob/patch-1/guideimages/Jumio_Cloud5.png) 
 
 5. Login to the ForgeRock Cloud tenant. 
 6. In the left-hand side toggle menu select Access Management.
 
 7. Go to ‘Realms’ them, on the left hand-side toggle menu select ‘Services’
+![Image6](https://github.com/Stuti-Rana/Jumio-Auth-Tree-Node/blob/patch-1/guideimages/Jumio_Cloud6.png) 
 8. In the drop-down menu for ‘Choose a service type’ select ‘Jumio Service’.
-9. Configure the service by filling out the fields. For ‘Token’ and ‘Secret’ use the new API credentials generated from the Jumio Service. 
+![Image7](https://github.com/Stuti-Rana/Jumio-Auth-Tree-Node/blob/patch-1/guideimages/Jumio_Cloud7%20.png)
+19. Configure the service by filling out the fields. For ‘Token’ and ‘Secret’ use the new API credentials generated from the Jumio Service. 
 
 ## Configure the Tree in ForgeRock Cloud
 1. Go to the ForgeRock Cloud homepage > Journeys > + New Journey
