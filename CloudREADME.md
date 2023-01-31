@@ -39,14 +39,22 @@ Jumio validates the user’s ID, corroborates it with a selfie and uses advanced
 1. Go to the ForgeRock Cloud homepage > Journeys > + New Journey
 2. Name the Journey ‘i.e. JumioTest’ for Identity Object select ‘Alpha realm-    Users managed/alpha_user
 3. Drag & drop the nodes to recreate the below tree:
+![Image9](https://github.com/Stuti-Rana/Jumio-Auth-Tree-Node/blob/patch-1/guideimages/Jumio_Cloud9.png)
 
 ## Testing
 1. To test the Journey, copy and paste the preview URL in an incognito window. 
-2. Login using ForgeRock Cloud credentials and Jumio’s NetVerify Service will prompt the user to start the verification process. Click Start.
+![Image10](https://github.com/Stuti-Rana/Jumio-Auth-Tree-Node/blob/patch-1/guideimages/Jumio_Cloud10.png) 
+3. Login using ForgeRock Cloud credentials and Jumio’s NetVerify Service will prompt the user to start the verification process. Click Start.
+![Image11](https://github.com/Stuti-Rana/Jumio-Auth-Tree-Node/blob/patch-1/guideimages/Jumio_Cloud11%20.png)
 
 3. The user will be directed to select their Region and to select ID type. 
+![Image12](https://github.com/Stuti-Rana/Jumio-Auth-Tree-Node/blob/patch-1/guideimages/Jumio_Cloud12.png)
 
 4. Take a photo of the front and back of the ID using the webcam or upload a photo from your computer
+![Image13](https://github.com/Stuti-Rana/Jumio-Auth-Tree-Node/blob/patch-1/guideimages/Jumio_Cloud13.png)
+![Image14](https://github.com/Stuti-Rana/Jumio-Auth-Tree-Node/blob/patch-1/guideimages/Jumio_Cloud14.png)
 
 5. Once prompted, complete the face verification step.
+![Image15](https://github.com/Stuti-Rana/Jumio-Auth-Tree-Node/blob/patch-1/guideimages/Jumio_Cloud15.png) 
+
 6. If the verification is successful the user will be successfully authenticated.
